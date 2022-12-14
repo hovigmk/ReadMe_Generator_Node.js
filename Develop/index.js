@@ -7,7 +7,89 @@ const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
-const questions = [];
+const questions = [
+    {
+        type: "input",
+        name: "title",
+        message: "What is the title of your project?",
+        validate: validateInput,
+    },
+    // Question for the project Description
+    {
+        type: "input",
+        name: "description",
+        message: "Enter a description of your project.",
+        validate: validateInput,
+    },
+
+    // Table of Contents, andling this in the markdown.js
+
+    // Question for Installation
+    {
+        type: "input",
+        name: "installation",
+        message: "Enter an explanation how to install the software, or commands for the program.",
+        validate: validateInput,
+    },
+
+    // Question for Usage
+    {
+        type: "input",
+        name: "usage",
+        message: "Enter describe how we can use this program/project.",
+        validate: validateInput,
+    },
+
+    // Question for Credits
+    {
+        type: "input",
+        name: "Credits",
+        message: "Enter the resources or the people if any that helped you with this project",
+        validate: validateInput,
+    },
+    // Question for License 
+    {
+        type: "list",
+        name: "license",
+        message: "Select a license for this project.",
+        choices: [
+            "GNU AGPLv3",
+            "GNU GPLv3",
+            "GNU LGPLv3",
+            "MPL 2.0",
+            "Apache 2.0",
+            "Boost Software 1.0",
+            "MIT",
+            "MIT",
+            "Unlicense",
+        ],
+        validate: validateInput,
+    },
+
+    // Question for Contributing 
+    {
+        type: "input",
+        name: "contributing",
+        message: "How can users contribute to your project.",
+        validate: validateInput,
+    },
+
+    // Question for Tests
+    {
+        type: "input",
+        name: "tests",
+        message: "Please enter any testing instructions you would like to provide for this project.",
+        validate: validateInput,
+    },
+
+    // QUESTIONS section -- github 
+    {
+        type: "input",
+        name: "userName",
+        message: "What is your GitHub username?",
+        validate: validateInput,
+    },
+];
 
 // TODO: Create a function to write README file
 
@@ -15,59 +97,31 @@ const questions = [];
 function init() {}
 
 // function to generate the ReadMe here
-// function writeToFile(fileName, data) {
-//   fs.writeFile(fileName, generateMarkdown(data), function (err) {
-//     if (err) {
-//       return console.log(err);
-//     }
-//   });
-// }
 
-// fs.writeFile(fileName, generateMarkdown(data), (err) =>
-//   err ? console.error(err) : console.log('Success!')
-// );
+
+fs.writeFile(fileName, generateMarkdown(data), (err) =>
+   err ? console.error(err) : console.log('Success!')
+    );
 
 // function to initalize the beginning of the questions
 
-// inquirer
-//   .prompt([
-//     {
-//       type: 'input',
-//       message: 'What is your user name?',
-//       name: 'username',
-//     },
-//     {
-//       type: 'password',
-//       message: 'What is your password?',
-//       name: 'password',
-//     },
-//     {
-//       type: 'password',
-//       message: 'Re-enter password to confirm:',
-//       name: 'confirm',
-//     },
-//   ])
-//   .then((response) =>
-//     response.confirm === response.password
-//       ? console.log('Success!')
-//       : console.log('You forgot your password already?!')
-//   );
 
-function init() {
-  inquirer.prompt(questions).then((data) => {
-    console.log(JSON.stringify(data, null, " "));
-    data.getLicense = getLicense(data.license);
-    writeToFile("./example/README.md", data);
-  });
-}
 
-//  const init = () => {
-//  inquirer.prompt(questions).then((data) => {
+// function init() {
+//   inquirer.prompt(questions).then((data) => {
 //     console.log(JSON.stringify(data, null, " "));
 //     data.getLicense = getLicense(data.license);
 //     writeToFile("./example/README.md", data);
 //   });
 // }
+
+const init = () => {
+  inquirer.prompt(questions).then((data) => {
+     console.log(JSON.stringify(data, null, " "));
+     data.getLicense = getLicense(data.license);
+     writeToFile("./example/README.md", data);
+   });
+ }
 
 // Function call to initialize app
 init();
