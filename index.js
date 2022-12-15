@@ -98,7 +98,7 @@ const init = () => {
     console.log(JSON.stringify(data, null, " "));
     // data.renderLicenseBadge = renderLicenseBadge(data.license);
     // data.renderLicenseLink = renderLicenseLink(data.license);
-    writeToFile("./example/README.md", data);
+    writeToFile("./assets/README.md", data);
   });
 };
 
