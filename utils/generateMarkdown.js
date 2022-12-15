@@ -2,21 +2,21 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license === "GNU AGPLv3") {
-    return "[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)";
+    return "![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)";
   } else if (license === "GNU GPLv3") {
-    return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)";
+    return "![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)";
   } else if (license === "GNU LGPLv3") {
-    return "[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)";
+    return "![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)";
   } else if (license === "MPL 2.0") {
-    return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)";
+    return "![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)";
   } else if (license === "Apache 2.0") {
-    return "[![License: Apache 2.0 (https://img.shields.io/badge/License-Apache%202.0-blue.svg)";
+    return "![License: Apache 2.0 (https://img.shields.io/badge/License-Apache%202.0-blue.svg)";
   } else if (license === "Boost Software 1.0") {
-    return "[![License: Boost Software 1.0](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)]";
+    return "![License: Boost Software 1.0](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)]";
   } else if (license === "MIT") {
-    return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]";
+    return "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]";
   } else if (license === "Unlicense") {
-    return "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)]";
+    return "![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)]";
   } else {
     return " ";
   }
@@ -26,21 +26,21 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === "GNU AGPLv3") {
-    return "[![License link: AGPL v3](https://www.gnu.org/licenses/agpl-3.0)";
+    return "![License link: AGPL v3](https://www.gnu.org/licenses/agpl-3.0)";
   } else if (license === "GNU GPLv3") {
-    return "[![License link: GPL v3](https://www.gnu.org/licenses/gpl-3.0)";
+    return "![License link: GPL v3](https://www.gnu.org/licenses/gpl-3.0)";
   } else if (license === "GNU LGPLv3") {
-    return "[![License link: LGPL v3](https://www.gnu.org/licenses/lgpl-3.0)";
+    return "![License link: LGPL v3](https://www.gnu.org/licenses/lgpl-3.0)";
   } else if (license === "MPL 2.0") {
-    return "[![License: MPL 2.0](https://opensource.org/licenses/MPL-2.0)";
+    return "![License: MPL 2.0](https://opensource.org/licenses/MPL-2.0)";
   } else if (license === "Apache 2.0") {
-    return "[![License link: Apache 2.0] (https://opensource.org/licenses/Apache-2.0)";
+    return "![License link: Apache 2.0] (https://opensource.org/licenses/Apache-2.0)";
   } else if (license === "Boost Software 1.0") {
-    return "[![License link: Boost Software 1.0](https://www.boost.org/LICENSE_1_0.txt)]";
+    return "![License link: Boost Software 1.0](https://www.boost.org/LICENSE_1_0.txt)]";
   } else if (license === "MIT") {
-    return "[![License link: MIT](https://opensource.org/licenses/MIT)]";
+    return "![License link: MIT](https://opensource.org/licenses/MIT)]";
   } else if (license === "Unlicense") {
-    return "[![License link: Unlicense](http://unlicense.org/)";
+    return "![License link: Unlicense](http://unlicense.org/)";
   } else {
     return " ";
   }
