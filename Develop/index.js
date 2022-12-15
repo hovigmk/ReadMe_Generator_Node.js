@@ -96,8 +96,8 @@ const writeToFile = (fileName, data) => {
 const init = () => {
   inquirer.prompt(questions).then((data) => {
     console.log(JSON.stringify(data, null, " "));
-    data.renderLicenseBadge = renderLicenseBadge(data.license);
-    data.renderLicenseLink = renderLicenseLink(data.license);
+    // data.renderLicenseBadge = renderLicenseBadge(data.license);
+    // data.renderLicenseLink = renderLicenseLink(data.license);
     writeToFile("./example/README.md", data);
   });
 };

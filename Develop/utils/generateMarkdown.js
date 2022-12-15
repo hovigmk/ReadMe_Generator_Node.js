@@ -61,8 +61,8 @@ function generateMarkdown(data) {
   return `
 # Project Title
 ${data.title}
-${data.renderLicenseBadge}
-${data.renderLicenseLink}
+${renderLicenseBadge(data.license)}
+${renderLicenseLink(data.license)}
 # Description
 ${data.description}
 # Table of Contents 
