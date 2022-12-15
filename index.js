@@ -83,6 +83,11 @@ const questions = [
     name: "userName",
     message: "What is your GitHub username?",
   },
+  {
+    type: "input",
+    name: "Email",
+    message: "What is your Email?",
+  },
 ];
 
 // function to generate the ReadMe here
