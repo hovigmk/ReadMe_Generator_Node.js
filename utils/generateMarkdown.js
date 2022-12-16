@@ -26,21 +26,21 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === "GNU AGPLv3") {
-    return "![License link: AGPL v3](https://www.gnu.org/licenses/agpl-3.0)";
+    return "[License link: AGPL v3](https://www.gnu.org/licenses/agpl-3.0)";
   } else if (license === "GNU GPLv3") {
-    return "![License link: GPL v3](https://www.gnu.org/licenses/gpl-3.0)";
+    return "[License link: GPL v3](https://www.gnu.org/licenses/gpl-3.0)";
   } else if (license === "GNU LGPLv3") {
-    return "![License link: LGPL v3](https://www.gnu.org/licenses/lgpl-3.0)";
+    return "[License link: LGPL v3](https://www.gnu.org/licenses/lgpl-3.0)";
   } else if (license === "MPL 2.0") {
-    return "![License: MPL 2.0](https://opensource.org/licenses/MPL-2.0)";
+    return "[License: MPL 2.0](https://opensource.org/licenses/MPL-2.0)";
   } else if (license === "Apache 2.0") {
-    return "![License link: Apache 2.0] (https://opensource.org/licenses/Apache-2.0)";
+    return "[License link: Apache 2.0] (https://opensource.org/licenses/Apache-2.0)";
   } else if (license === "Boost Software 1.0") {
-    return "![License link: Boost Software 1.0](https://www.boost.org/LICENSE_1_0.txt)]";
+    return "[License link: Boost Software 1.0](https://www.boost.org/LICENSE_1_0.txt)]";
   } else if (license === "MIT") {
-    return "![License link: MIT](https://opensource.org/licenses/MIT)]";
+    return "[License link: MIT](https://opensource.org/licenses/MIT)]";
   } else if (license === "Unlicense") {
-    return "![License link: Unlicense](http://unlicense.org/)";
+    return "[License link: Unlicense](http://unlicense.org/)";
   } else {
     return " ";
   }
