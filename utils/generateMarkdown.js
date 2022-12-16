@@ -12,11 +12,11 @@ function renderLicenseBadge(license) {
   } else if (license === "Apache 2.0") {
     return "![License: Apache 2.0 (https://img.shields.io/badge/License-Apache%202.0-blue.svg)";
   } else if (license === "Boost Software 1.0") {
-    return "![License: Boost Software 1.0](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)]";
+    return "![License: Boost Software 1.0](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)";
   } else if (license === "MIT") {
-    return "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]";
+    return "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)";
   } else if (license === "Unlicense") {
-    return "![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)]";
+    return "![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)";
   } else {
     return " ";
   }
