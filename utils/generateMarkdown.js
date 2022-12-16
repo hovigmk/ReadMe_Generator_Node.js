@@ -66,12 +66,12 @@ ${renderLicenseLink(data.license)}
 # Description
 ${data.description}
 # Table of Contents 
-* [Installation](#-Installation)
-* [Usage](#-Usage)
-* [License](#-Installation)
-* [Contributing](#-Contributing)
-* [Tests](#-Tests)
-* [Questions](#-Contact-Information)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#Installation)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [Questions](#Contact-Information)
   
 # Installation
 ${data.installation}
