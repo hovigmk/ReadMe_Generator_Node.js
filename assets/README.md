@@ -24,5 +24,5 @@ f
 # Tests
 g
 # Contact Information 
-* GitHub Username: ![hovigmk](github.com/hovigmk)
+* GitHub Username: ![hovigmk](https://www.github.com/hovigmk)
 * Contact Email: i
