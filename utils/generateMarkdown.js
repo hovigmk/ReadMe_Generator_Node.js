@@ -71,7 +71,7 @@ ${data.description}
 * [License](#Installation)
 * [Contributing](#Contributing)
 * [Tests](#Tests)
-* [Questions](#Contact-Information)
+* [Contact Information](#Contact-Information)
   
 # Installation
 ${data.installation}
