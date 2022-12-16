@@ -1,10 +1,10 @@
 
 # Project Title
-a
-![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)
-![License link: AGPL v3](https://www.gnu.org/licenses/agpl-3.0)
+Readme Generator
+![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)]
+![License link: Unlicense](http://unlicense.org/)
 # Description
-b
+It generates a readme file for a developer
 # Table of Contents 
 * [Installation](#Installation)
 * [Usage](#Usage)
@@ -14,16 +14,15 @@ b
 * [Questions](#Contact-Information)
   
 # Installation
-c
+running the command line  node index.js in the terminal
 # Usage
-d
+Automatically would write a readme for the developer for a project
 # License 
-GNU AGPLv3
-* As this license list was not comprehensive, if you need another license, use the contact information below to ask for license to be added. 
+Unlicense
 # Contributing 
-f
+they can add their input
 # Tests
-g
+none
 # Contact Information 
-* GitHub Username: h
+* GitHub Username: hovigmk
 * Contact Email: undefined
