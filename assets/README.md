@@ -1,7 +1,7 @@
 
 # Project Title
 ReadMe Generator
-![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)]
+![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)
 [License link: Unlicense](http://unlicense.org/)
 # Description
 Generates Readme for the user
@@ -11,12 +11,14 @@ Generates Readme for the user
 * [License](#Installation)
 * [Contributing](#Contributing)
 * [Tests](#Tests)
-* [Questions](#Contact-Information)
+* [Contact Information](#Contact-Information)
   
 # Installation
 running the command line node index.js along with the code is enough
 # Usage
 It saves time for people and creates a professional readme
+# Credits
+UofT bootcamp
 # License 
 Unlicense
 # Contributing 
