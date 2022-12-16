@@ -24,5 +24,5 @@ f
 # Tests
 g
 # Contact Information 
-* GitHub Username: h
-* Contact Email: example@gmail.com
+* GitHub Username: github.com/h
+* Contact Email: i
