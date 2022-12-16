@@ -84,8 +84,7 @@ ${data.contributing}
 # Tests
 ${data.tests}
 # Contact Information 
-* GitHub Username: ${data.userName}
-* GitHub Link: ![](github.com/${data.userName})
+* GitHub Username: ![${data.userName}](github.com/${data.userName})
 * Contact Email: ${data.Email}
 `;
 }

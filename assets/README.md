@@ -24,6 +24,5 @@ f
 # Tests
 g
 # Contact Information 
-* GitHub Username: hovigmk
-* GitHub Link: ![](github.com/hovigmk)
-* Contact Email: example@gmail.com
+* GitHub Username: ![hovigmk](github.com/hovigmk)
+* Contact Email: i
