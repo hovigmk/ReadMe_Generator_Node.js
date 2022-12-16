@@ -20,9 +20,9 @@ d
 # License 
 GNU AGPLv3
 # Contributing 
-f
+i
 # Tests
-g
+e
 # Contact Information 
-* GitHub Username: ![hovigmk](https://www.github.com/hovigmk)
+* GitHub Username: [hovigmk](https://www.github.com/hovigmk)
 * Contact Email: i
