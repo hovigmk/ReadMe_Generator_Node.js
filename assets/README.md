@@ -2,7 +2,7 @@
 # Project Title
 a
 ![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)
-![License link: AGPL v3](https://www.gnu.org/licenses/agpl-3.0)
+[License link: AGPL v3](https://www.gnu.org/licenses/agpl-3.0)
 # Description
 b
 # Table of Contents 
@@ -22,7 +22,7 @@ GNU AGPLv3
 # Contributing 
 i
 # Tests
-e
+g
 # Contact Information 
 * GitHub Username: [hovigmk](https://www.github.com/hovigmk)
 * Contact Email: i
