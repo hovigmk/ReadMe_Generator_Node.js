@@ -1,6 +1,4 @@
-# Professional README Generator Starter Code
-
-## 06 Weather Forecast
+## ReadMe Generator
 
 ## User Story
 
