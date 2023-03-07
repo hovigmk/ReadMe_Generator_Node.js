@@ -68,7 +68,7 @@ ${data.description}
 # Table of Contents 
 * [Installation](#Installation)
 * [Usage](#Usage)
-* [License](#Installation)
+* [License](#License)
 * [Contributing](#Contributing)
 * [Tests](#Tests)
 * [Contact Information](#Contact-Information)
