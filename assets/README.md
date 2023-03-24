@@ -1,30 +1,30 @@
 
 # Project Title
-Text_Editor_PWA
+Book_Search_Engine_MERN
 ![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)
 [License link: Unlicense](http://unlicense.org/)
 # Description
-The app is a text editor. It's a single page application that meets the PWA criteria Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
+The app let's the user search a book and read its plot in case if they want to purchase . They can also save the books  that they searched
 # Table of Contents 
 * [Installation](#Installation)
 * [Usage](#Usage)
-* [License](#Installation)
+* [License](#License)
 * [Contributing](#Contributing)
 * [Tests](#Tests)
 * [Contact Information](#Contact-Information)
   
 # Installation
-The user can either click the heroku link that's provided or, they can clone the code and run "npm run start" and then switch over to the browser and got to "localhost:3000" to see the output
+The user can either use the heroku app or if they want yo install it  on their local machine they can  clone it 
 # Usage
-Once the user runs the app they can type whatever they want and have it saved automatically even if they're offline
+This app is used to research about books
 # Credits
-UofT bootcamp starter code and UofT bootcamp class notes
+NA
 # License 
 Unlicense
 # Contributing 
-They can use it to have a text saved and edited if needed or they can edit it and use it to save other things.
+People can further develop this by adding more items to search such as, movies
 # Tests
-NA
+
 # Contact Information 
 * GitHub Username: [hovigmk](https://www.github.com/hovigmk)
 * Contact Email: hovigkalayjian@gmail.com
